@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="js/scripts.js">
+    <title>Postcard</title>
+</head>
+<body>
+    <h1>Hello from Hawaii!</h1>
+    <p>Fill in the form below to get your very own postcard from Hawaii!</p>
+    <form>
+        <label for="firstName">Enter your name here</label>
+        <input id="firstName" type="text" name="firstName">
+        <label for="island">Choose your favorite Hawaiian island</label>
+        <select id="island" name="island">
+            <option value="bigIsland">Big Island</option>
+            <option value="maui">Maui</option>
+            <option value="oahu">Oahu</option>
+            <option value="kauai">Kauai</option>
+            <option value="lanai">Lanai</option>
+        </select>
+        <button type="submit">Send my postcard!</button>
+    </form>
+
+    <div id="postcard" class="hide">
+        <h1>Aloha!</h1>
+        <p>
+            <span id="firstName">_____</span>,
+        </p>
+        <p>Wish you were here with us in beautiful <span id=island>_____</span>!</p>
+        <p>Love, your friends</p>
+    </div>
+</body>
+</html>
