@@ -8,18 +8,20 @@
     <title>Postcard</title>
 </head>
 <body>
-    <h1>Hello from Hawaii!</h1>
-    <p>Fill in the form below to get your very own postcard from Hawaii!</p>
+    <div class="container">
+        <h1>Hello from Hawaii!</h1>
+        <p>Fill in the form below to get your very own postcard from Hawaii!</p>
+    </div>
     <form>
         <label for="firstName">Enter your name here</label>
         <input id="firstName" type="text" name="firstName">
         <label for="island">Choose your favorite Hawaiian island</label>
         <select id="island" name="island">
-            <option value="bigIsland">Big Island</option>
-            <option value="maui">Maui</option>
-            <option value="oahu">Oahu</option>
-            <option value="kauai">Kauai</option>
-            <option value="lanai">Lanai</option>
+            <option value="Big Island">Big Island</option>
+            <option value="Maui">Maui</option>
+            <option value="Oahu">Oahu</option>
+            <option value="Kauai">Kauai</option>
+            <option value="Lanai">Lanai</option>
         </select>
         <button type="submit">Send my postcard!</button>
     </form>
@@ -32,5 +34,6 @@
         <p>Wish you were here with us in beautiful <span id=island>_____</span>!</p>
         <p>Love, your friends</p>
     </div>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
